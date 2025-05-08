@@ -68,3 +68,21 @@ test_data = generate_weather_data(200, missing_prob=0.1)
 
 train_data.to_csv('train_data.csv', index=False)
 test_data.to_csv('test_data.csv', index=False)
+
+def fill_missing_values(data):
+    for column in data.columns:
+        if data[column].dtype == 'object':
+            data[column] = data[column].fillna(data[column].mode()[0])
+        else:
+            data[column] = data[column].fillna(data[column].mean())
+    return data
+
+train_data = fill_missing_values(train_data)
+
+test_data = fill_missing_values(test_data)
+
+train_data.to_csv('train_data_filled.csv', index=False)
+test_data.to_csv('test_data_filled.csv', index=False)
+
+print("Datele de antrenament au fost generate cu succes!")
+print("Au fost salvate fisierele csv")
