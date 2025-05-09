@@ -198,13 +198,72 @@ def plot_target_relationships(data, target_variable='Temperature'):
         for col in numerical_columns:
             plt.figure(figsize=(8, 6))
             sns.violinplot(x=data[target_variable], y=data[col])
-            plt.title(f'Plot of {col} vs {target_variable}')
+            plt.title(f'Violin plot of {col} vs {target_variable}')
             plt.xlabel(target_variable)
             plt.ylabel(col)
-            plt.savefig(f'plot_{col}_vs_{target_variable}.png')
+            plt.savefig(f'violin_{col}_vs_{target_variable}.png')
             plt.close()
 
-    print(f"Scatter plots for {target_variable} relationships have been saved.")
+    print(f"Scatter/Violin plots for {target_variable} relationships have been saved.")
 
 plot_target_relationships(train_data, target_variable='Temperature')
 
+
+
+def train_and_evaluate_regression(train_file, test_file, target_variable):
+
+    train_data = pd.read_csv(train_file)
+    test_data = pd.read_csv(test_file)
+
+    X_train = train_data.drop(columns=[target_variable])
+    y_train = train_data[target_variable]
+
+    X_test = test_data.drop(columns=[target_variable])
+    y_test = test_data[target_variable]
+
+    X_train = pd.get_dummies(X_train, drop_first=True)
+    X_test = pd.get_dummies(X_test, drop_first=True)
+
+    X_train, X_test = X_train.align(X_test, join='left', axis=1, fill_value=0)
+
+    scaler = StandardScaler()
+    X_train_scaled = scaler.fit_transform(X_train)
+    X_test_scaled = scaler.transform(X_test)
+
+    model = Ridge(alpha=1.0)
+    model.fit(X_train_scaled, y_train)
+
+    y_pred = model.predict(X_test_scaled)
+
+    rmse = np.sqrt(mean_squared_error(y_test, y_pred))
+    mae = mean_absolute_error(y_test, y_pred)
+    r2 = r2_score(y_test, y_pred)
+
+    print(f"Root Mean Squared Error (RMSE): {rmse}")
+    print(f"Mean Absolute Error (MAE): {mae}")
+    print(f"R^2: {r2}")
+
+
+    plt.figure(figsize=(8, 6))
+    plt.scatter(y_test, y_pred, color='blue')
+    plt.plot([min(y_test), max(y_test)], [min(y_test), max(y_test)], color='red', linestyle='--')
+    plt.title(f'Predictions vs Actual for {target_variable}')
+    plt.xlabel('Actual')
+    plt.ylabel('Predicted')
+    plt.savefig(f'predictions_vs_actual_{target_variable}.png')
+    plt.close()
+
+    residuals = y_test - y_pred
+    plt.figure(figsize=(8, 6))
+    sns.histplot(residuals, kde=True, color='green')
+    plt.title(f'Residuals for {target_variable}')
+    plt.xlabel('Residuals')
+    plt.ylabel('Frequency')
+    plt.savefig(f'residuals_{target_variable}.png')
+    plt.close()
+
+train_file = 'train_data_filled.csv'
+test_file = 'test_data_filled.csv'
+target_variable = 'Temperature'
+
+train_and_evaluate_regression(train_file, test_file, target_variable)
