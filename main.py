@@ -84,8 +84,7 @@ test_data = fill_missing_values(test_data)
 train_data.to_csv('train_data_filled.csv', index=False)
 test_data.to_csv('test_data_filled.csv', index=False)
 
-print("Datele de antrenament au fost generate cu succes!")
-print("Au fost salvate fisierele csv")
+print("Training and testing data have been generated and saved to CSV files.")
 
 def plot_distributions(data):
     numerical_columns = ['Temperature', 'Wind', 'Humidity', 'Pressure']
@@ -117,21 +116,21 @@ def plot_distributions(data):
     plt.close()
 
 plot_distributions(train_data)
-print("Graficele au fost generate cu succes!")
+print("Graphics and distributions have been generated and saved successfully!")
 
 numerical_summary = train_data.describe()
 
 categorical_summary = train_data.describe(include=['object'])
 
 with open('describe.txt', 'w') as f:
-    f.write("Statistici descriptive pentru variabile numerice:\n")
+    f.write("Descriptive Statistics for numerical values:\n")
     f.write(str(numerical_summary))
     f.write("\n\n")
 
-    f.write("Statistici descriptive pentru variabile categorice:\n")
+    f.write("Descriptive Statistics for categorical values:\n")
     f.write(str(categorical_summary))
 
-print("Fisierul describe.txt a fost creat cu succes!")
+print("File describe.txt has been created with descriptive statistics.")
 
 
 def detect_outliers(data):
@@ -160,7 +159,7 @@ def detect_outliers(data):
         plt.close()
 
 detect_outliers(train_data)
-print("Graficele outliers au fost generate cu succes!")
+print("Outliers graphs have been generated and saved successfully!")
 
 def correlation_analysis(data):
 
@@ -177,7 +176,7 @@ def correlation_analysis(data):
         f.write("Correlation Matrix:\n")
         f.write(str(correlation_matrix))
 
-    print("Matricea de corelație și heatmap-ul au fost salvate cu succes!")
+    print("Correlation matrix and heatmap have been saved.")
 
 correlation_analysis(train_data)
 
@@ -208,8 +207,6 @@ def plot_target_relationships(data, target_variable='Temperature'):
 
 plot_target_relationships(train_data, target_variable='Temperature')
 
-
-
 def train_and_evaluate_regression(train_file, test_file, target_variable):
 
     train_data = pd.read_csv(train_file)
@@ -239,6 +236,7 @@ def train_and_evaluate_regression(train_file, test_file, target_variable):
     mae = mean_absolute_error(y_test, y_pred)
     r2 = r2_score(y_test, y_pred)
 
+    print(f"\n")
     print(f"Root Mean Squared Error (RMSE): {rmse}")
     print(f"Mean Absolute Error (MAE): {mae}")
     print(f"R^2: {r2}")
