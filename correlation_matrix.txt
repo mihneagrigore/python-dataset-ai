@@ -1,6 +1,0 @@
-Correlation Matrix:
-             Temperature      Wind  Humidity  Pressure
-Temperature     1.000000 -0.053891 -0.066376  0.039992
-Wind           -0.053891  1.000000 -0.015406  0.041067
-Humidity       -0.066376 -0.015406  1.000000  0.026467
-Pressure        0.039992  0.041067  0.026467  1.000000
