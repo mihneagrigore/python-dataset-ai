@@ -1,0 +1,501 @@
+City,Condition,Temperature,Wind,Humidity,Pressure,Visibility,DateTime
+Tokyo,Cloudy,26.0,20.0,20.0,1050.0,Good,2007-01-02
+Berlin,Snowy,-9.0,10.0,75.0,1012.0,Poor,2004-07-26
+New York,Cloudy,100.0,25.0,46.0,1018.0,Moderate,2017-12-10
+Rome,Clear,-3.0,25.0,26.0,1008.0,Good,2004-12-20
+Beijing,Rainy,7.0,15.0,70.0,997.0,Moderate,2001-04-17
+Rome,Stormy,35.0,5.0,82.0,1005.0,Good,2000-07-17
+New York,Clear,2.0,1.0,67.0,1002.0,Good,2005-01-24
+Berlin,Stormy,40.0,20.0,87.0,,Poor,2006-12-24
+London,Rainy,18.0,25.0,73.0,1023.0,Poor,2016-07-25
+Rome,Stormy,-5.0,1.0,40.0,1012.0,Poor,2004-08-06
+Moscow,Cloudy,23.0,10.0,23.0,1050.0,Poor,2000-06-17
+London,Cloudy,2.0,20.0,,1023.0,Good,2007-03-13
+London,Rainy,28.0,1.0,,1020.0,Poor,2002-09-20
+Beijing,Clear,12.0,25.0,66.0,982.0,Poor,2023-07-15
+Madrid,Clear,39.0,15.0,,1007.0,Moderate,2018-02-04
+Madrid,Cloudy,38.0,30.0,90.0,1002.0,Good,2010-01-21
+London,Clear,19.0,,62.0,989.0,Poor,2024-05-21
+Rome,Clear,-6.0,25.0,45.0,,Moderate,2016-10-11
+Sydney,Rainy,-8.0,1.0,49.0,,Good,2023-02-03
+Sydney,Clear,-4.0,20.0,98.0,1015.0,Good,2022-09-18
+Paris,Cloudy,18.0,25.0,46.0,1005.0,Poor,2019-10-16
+Paris,Stormy,15.0,1.0,,1011.0,Good,2010-06-24
+London,Snowy,-2.0,5.0,33.0,999.0,Moderate,2001-09-26
+Sydney,Rainy,30.0,10.0,61.0,1006.0,Moderate,2023-04-11
+New York,Stormy,15.0,10.0,72.0,1023.0,Poor,2023-03-16
+Madrid,Snowy,34.0,15.0,73.0,1021.0,Good,2013-05-30
+London,Cloudy,16.0,25.0,81.0,994.0,Moderate,2017-11-05
+London,Clear,,10.0,92.0,,Moderate,2020-12-14
+Sydney,Stormy,-2.0,30.0,47.0,1011.0,Poor,2024-03-21
+London,Rainy,-4.0,20.0,,997.0,Good,2016-08-21
+Rome,Stormy,,20.0,23.0,1024.0,Poor,2016-08-19
+Tokyo,Stormy,26.0,20.0,,1013.0,Good,2011-09-09
+London,Stormy,34.0,25.0,47.0,1008.0,Poor,2001-11-05
+New York,Snowy,21.0,30.0,98.0,1007.0,Poor,2010-08-23
+New York,Snowy,17.0,10.0,21.0,992.0,Good,2000-12-31
+Berlin,Clear,-3.0,15.0,44.0,990.0,Moderate,2003-08-12
+Berlin,Rainy,25.0,15.0,87.0,1007.0,Moderate,2008-03-21
+Berlin,Stormy,24.0,10.0,94.0,995.0,Moderate,2001-02-09
+Madrid,Snowy,21.0,25.0,20.0,991.0,Moderate,2001-10-30
+Rome,Snowy,8.0,,24.0,1001.0,Good,2019-12-10
+Moscow,Snowy,8.0,30.0,50.0,1025.0,Poor,2024-06-01
+Rome,Stormy,34.0,1.0,36.0,990.0,Moderate,2000-06-12
+Sydney,Stormy,,50.0,92.0,1009.0,Moderate,2004-01-16
+Rome,Clear,-7.0,20.0,54.0,983.0,Poor,2003-08-12
+Rome,Clear,9.0,30.0,46.0,1023.0,Poor,2008-06-12
+Madrid,Clear,-6.0,10.0,,997.0,Good,2015-09-07
+Madrid,Rainy,36.0,25.0,26.0,984.0,Good,2004-11-21
+London,Stormy,2.0,,92.0,1024.0,Poor,2002-01-26
+Berlin,Snowy,3.0,30.0,58.0,1021.0,Moderate,2016-07-01
+Sydney,Clear,7.0,25.0,79.0,1012.0,Good,2022-09-08
+Berlin,Clear,-8.0,20.0,88.0,1017.0,Good,2004-07-04
+London,Rainy,-6.0,,65.0,1009.0,Moderate,2020-05-12
+Beijing,Cloudy,21.0,30.0,33.0,1000.0,Moderate,2023-12-27
+Berlin,Cloudy,25.0,,76.0,,Good,2016-07-15
+Rome,Clear,15.0,5.0,72.0,1024.0,Good,2001-10-23
+Tokyo,Snowy,5.0,30.0,24.0,984.0,Good,2023-05-10
+Rome,Snowy,8.0,1.0,97.0,,Poor,2024-08-13
+London,Stormy,13.0,,,1022.0,Poor,2013-10-03
+Berlin,Cloudy,28.0,5.0,49.0,997.0,Moderate,2007-07-07
+Moscow,Snowy,38.0,1.0,74.0,1024.0,Poor,2015-07-26
+Beijing,Cloudy,21.0,1.0,,,Moderate,2009-04-04
+Madrid,Rainy,-5.0,5.0,35.0,,Moderate,2002-08-24
+Berlin,Cloudy,21.0,5.0,90.0,990.0,Good,2011-03-25
+London,Snowy,22.0,20.0,63.0,,Good,2020-05-06
+Moscow,Stormy,38.0,1.0,68.0,993.0,Good,2009-05-04
+Madrid,Snowy,38.0,10.0,,950.0,Good,2008-03-02
+Paris,Snowy,4.0,,90.0,993.0,Moderate,2001-06-26
+Berlin,Snowy,23.0,5.0,62.0,987.0,Good,2008-06-23
+Sydney,Stormy,39.0,10.0,,1003.0,Good,2004-05-24
+Tokyo,Stormy,24.0,25.0,43.0,985.0,Poor,2018-01-04
+Moscow,Stormy,25.0,25.0,83.0,,Moderate,2012-09-25
+Paris,Snowy,0.0,20.0,79.0,1017.0,Poor,2022-08-21
+Berlin,Stormy,37.0,25.0,85.0,1013.0,Good,2009-10-19
+Rome,Clear,36.0,50.0,86.0,987.0,Moderate,2013-09-11
+London,Stormy,14.0,10.0,5.0,1016.0,Good,2021-08-11
+Paris,Stormy,-7.0,30.0,86.0,989.0,Moderate,2006-10-28
+New York,Rainy,-3.0,15.0,42.0,981.0,Moderate,2001-08-22
+Tokyo,Rainy,19.0,1.0,25.0,1019.0,Good,2022-05-01
+Paris,Clear,15.0,5.0,44.0,1021.0,Moderate,2013-05-02
+New York,Cloudy,21.0,20.0,87.0,1022.0,Moderate,2023-11-30
+Sydney,Rainy,-3.0,30.0,52.0,993.0,Good,2024-11-11
+Paris,Snowy,5.0,25.0,49.0,994.0,Poor,2018-01-30
+New York,Snowy,39.0,5.0,54.0,1013.0,Poor,2024-01-01
+Sydney,Cloudy,20.0,15.0,77.0,992.0,Poor,2016-07-23
+Rome,Cloudy,-2.0,100.0,,991.0,Poor,2015-08-10
+London,Stormy,8.0,30.0,77.0,989.0,Poor,2015-10-14
+Beijing,Cloudy,10.0,15.0,78.0,950.0,Poor,2009-03-02
+Madrid,Clear,,10.0,,987.0,Poor,2021-06-23
+Berlin,Snowy,4.0,5.0,50.0,982.0,Moderate,2015-08-15
+Moscow,Stormy,16.0,30.0,47.0,988.0,Moderate,2008-02-02
+Tokyo,Stormy,26.0,,37.0,984.0,Good,2010-04-10
+Rome,Stormy,17.0,5.0,28.0,993.0,Moderate,2019-04-22
+Sydney,Rainy,-10.0,1.0,57.0,1024.0,Moderate,2006-09-17
+Madrid,Rainy,-7.0,20.0,70.0,1010.0,Good,2008-04-15
+Berlin,Cloudy,14.0,1.0,66.0,1021.0,Good,2008-09-16
+Moscow,Cloudy,38.0,1.0,85.0,,Good,2014-12-08
+Sydney,Snowy,25.0,25.0,96.0,1006.0,Poor,2016-03-14
+Berlin,Stormy,9.0,15.0,,1017.0,Moderate,2022-04-20
+Sydney,Snowy,100.0,100.0,22.0,1000.0,Poor,2023-04-11
+Beijing,Cloudy,,25.0,37.0,1007.0,Good,2004-02-20
+Tokyo,Rainy,8.0,25.0,,993.0,Good,2023-11-08
+Paris,Rainy,4.0,10.0,64.0,988.0,Good,2015-01-21
+Paris,Cloudy,,30.0,5.0,1020.0,Poor,2017-07-07
+Tokyo,Snowy,,15.0,63.0,1014.0,Poor,2001-09-10
+London,Cloudy,28.0,1.0,65.0,989.0,Poor,2012-11-20
+Paris,Snowy,9.0,10.0,78.0,985.0,Good,2000-12-23
+Moscow,Rainy,22.0,20.0,68.0,993.0,Poor,2016-05-22
+Beijing,Rainy,33.0,5.0,110.0,,Moderate,2021-11-07
+Moscow,Clear,27.0,,58.0,1022.0,Good,2010-10-05
+Moscow,Cloudy,,,43.0,1050.0,Poor,2019-05-17
+Moscow,Clear,11.0,15.0,,981.0,Poor,2007-07-08
+Moscow,Snowy,7.0,10.0,90.0,998.0,Good,2020-08-06
+Rome,Snowy,-2.0,25.0,75.0,1021.0,Poor,2017-01-18
+Sydney,Clear,15.0,30.0,47.0,1022.0,Moderate,2001-05-26
+Paris,Rainy,26.0,,92.0,998.0,Poor,2000-01-26
+London,Rainy,12.0,5.0,80.0,983.0,Moderate,2002-03-17
+Berlin,Cloudy,34.0,25.0,73.0,982.0,Poor,2004-05-06
+Rome,Cloudy,9.0,1.0,67.0,993.0,Moderate,2004-06-03
+London,Clear,30.0,10.0,25.0,1002.0,Good,2010-01-02
+Sydney,Snowy,29.0,10.0,83.0,987.0,Poor,2008-02-29
+Berlin,Cloudy,-6.0,10.0,53.0,988.0,Moderate,2013-04-07
+Tokyo,Clear,-2.0,,31.0,1013.0,Poor,2011-02-01
+Sydney,Stormy,23.0,15.0,59.0,1023.0,Good,2008-12-30
+London,Stormy,-9.0,30.0,,994.0,Good,2011-01-13
+Paris,Clear,39.0,30.0,44.0,990.0,Poor,2003-02-02
+New York,Cloudy,7.0,,,985.0,Moderate,2003-12-11
+Tokyo,Clear,34.0,25.0,81.0,984.0,Moderate,2011-09-03
+Rome,Cloudy,14.0,5.0,73.0,1050.0,Poor,2019-05-22
+Tokyo,Rainy,22.0,20.0,95.0,999.0,Good,2009-09-10
+Rome,Stormy,12.0,1.0,,1010.0,Good,2001-11-21
+Berlin,Snowy,2.0,1.0,66.0,992.0,Moderate,2003-12-21
+Madrid,Rainy,12.0,15.0,34.0,985.0,Good,2011-03-27
+New York,Clear,32.0,25.0,75.0,1000.0,Good,2023-07-29
+Paris,Clear,11.0,1.0,94.0,1014.0,Moderate,2022-11-22
+Paris,Cloudy,100.0,10.0,32.0,995.0,Moderate,2005-05-12
+New York,Clear,34.0,20.0,92.0,1024.0,Good,2017-11-08
+London,Snowy,-4.0,25.0,92.0,1021.0,Moderate,2018-06-01
+London,Rainy,-5.0,,64.0,994.0,Good,2023-08-17
+Beijing,Cloudy,37.0,5.0,34.0,981.0,Good,2014-09-16
+Paris,Cloudy,36.0,15.0,5.0,985.0,Poor,2004-07-09
+Rome,Clear,20.0,20.0,35.0,,Poor,2014-06-08
+Beijing,Cloudy,,15.0,22.0,989.0,Moderate,2018-11-18
+London,Cloudy,,20.0,77.0,998.0,Poor,2000-10-01
+New York,Clear,19.0,5.0,24.0,1022.0,Good,2007-06-04
+Berlin,Cloudy,9.0,15.0,,980.0,Poor,2005-09-06
+London,Rainy,6.0,5.0,87.0,1021.0,Good,2018-12-12
+Berlin,Clear,31.0,50.0,26.0,1016.0,Good,2024-06-03
+Paris,Cloudy,10.0,,40.0,1012.0,Moderate,2021-06-18
+Moscow,Rainy,8.0,,94.0,1001.0,Good,2011-09-15
+Sydney,Rainy,21.0,20.0,,1008.0,Poor,2020-01-01
+Moscow,Cloudy,28.0,25.0,58.0,987.0,Poor,2000-10-02
+Moscow,Snowy,-100.0,,5.0,983.0,Poor,2007-01-20
+Tokyo,Clear,-7.0,,58.0,987.0,Moderate,2015-09-01
+Tokyo,Rainy,37.0,1.0,5.0,1021.0,Moderate,2007-12-17
+Madrid,Stormy,2.0,20.0,21.0,991.0,Moderate,2000-12-17
+Berlin,Stormy,3.0,15.0,47.0,1015.0,Good,2018-07-10
+Rome,Cloudy,13.0,20.0,90.0,,Good,2008-03-14
+Madrid,Snowy,,15.0,,1012.0,Good,2018-10-06
+Madrid,Cloudy,14.0,30.0,86.0,999.0,Moderate,2010-05-04
+London,Stormy,24.0,30.0,61.0,993.0,Poor,2020-09-11
+New York,Rainy,26.0,20.0,,1002.0,Good,2008-02-19
+Berlin,Cloudy,37.0,30.0,33.0,950.0,Poor,2014-07-02
+Tokyo,Clear,-7.0,5.0,68.0,983.0,Good,2014-03-06
+Berlin,Clear,-7.0,30.0,57.0,950.0,Poor,2018-06-24
+New York,Rainy,10.0,25.0,68.0,950.0,Moderate,2010-05-04
+New York,Snowy,37.0,30.0,96.0,993.0,Moderate,2000-11-08
+New York,Cloudy,,15.0,49.0,997.0,Moderate,2001-05-26
+Madrid,Rainy,-100.0,,,994.0,Poor,2013-07-27
+New York,Snowy,20.0,25.0,47.0,999.0,Poor,2005-07-19
+London,Snowy,37.0,25.0,28.0,1050.0,Moderate,2004-12-14
+Moscow,Clear,3.0,1.0,,1003.0,Good,2019-09-20
+Madrid,Snowy,37.0,1.0,93.0,,Good,2004-05-26
+Madrid,Clear,,25.0,53.0,995.0,Moderate,2014-12-24
+Moscow,Rainy,,30.0,35.0,997.0,Good,2013-01-22
+Rome,Clear,9.0,10.0,94.0,1007.0,Good,2014-10-06
+London,Rainy,-8.0,5.0,29.0,1013.0,Poor,2010-11-28
+Berlin,Clear,5.0,10.0,76.0,982.0,Poor,2014-06-27
+Berlin,Snowy,22.0,20.0,72.0,983.0,Good,2020-04-12
+Beijing,Clear,25.0,20.0,91.0,1000.0,Good,2016-01-11
+Paris,Stormy,19.0,50.0,87.0,,Good,2024-02-12
+Madrid,Rainy,100.0,25.0,56.0,1017.0,Moderate,2009-02-26
+London,Cloudy,,30.0,23.0,,Poor,2013-04-06
+Moscow,Snowy,5.0,10.0,28.0,1015.0,Moderate,2001-11-02
+Berlin,Rainy,27.0,5.0,,1000.0,Good,2007-05-06
+Moscow,Rainy,,5.0,30.0,993.0,Moderate,2013-08-24
+Rome,Clear,-5.0,30.0,42.0,988.0,Good,2004-11-04
+New York,Cloudy,29.0,30.0,71.0,985.0,Good,2009-04-27
+Moscow,Snowy,21.0,50.0,37.0,1008.0,Good,2020-05-02
+London,Clear,,100.0,31.0,1020.0,Moderate,2002-02-21
+Madrid,Clear,3.0,30.0,91.0,1024.0,Good,2006-05-09
+New York,Stormy,,50.0,92.0,984.0,Good,2004-02-02
+Madrid,Cloudy,-7.0,20.0,54.0,1010.0,Poor,2006-09-13
+Moscow,Clear,27.0,5.0,85.0,1001.0,Moderate,2016-05-11
+Berlin,Snowy,25.0,10.0,20.0,1016.0,Poor,2002-07-18
+Rome,Cloudy,1.0,10.0,75.0,1018.0,Moderate,2024-07-15
+Rome,Snowy,10.0,5.0,88.0,1018.0,Moderate,2024-08-01
+Paris,Snowy,31.0,20.0,36.0,1000.0,Moderate,2016-11-26
+New York,Snowy,17.0,15.0,95.0,991.0,Moderate,2005-08-19
+Moscow,Rainy,33.0,10.0,95.0,1024.0,Poor,2022-01-10
+Beijing,Stormy,23.0,1.0,39.0,1001.0,Moderate,2007-01-02
+Berlin,Rainy,-3.0,20.0,22.0,982.0,Moderate,2001-08-31
+Rome,Snowy,36.0,20.0,89.0,998.0,Moderate,2017-10-08
+Berlin,Stormy,2.0,10.0,47.0,,Good,2009-01-31
+New York,Clear,14.0,5.0,59.0,986.0,Moderate,2008-01-07
+Beijing,Rainy,27.0,5.0,67.0,998.0,Good,2019-03-09
+Madrid,Snowy,33.0,1.0,40.0,986.0,Poor,2014-06-14
+Rome,Clear,,,91.0,993.0,Moderate,2000-06-21
+London,Rainy,-5.0,30.0,72.0,1050.0,Poor,2003-10-23
+Berlin,Snowy,3.0,10.0,110.0,1009.0,Moderate,2023-04-30
+Beijing,Cloudy,-2.0,20.0,,983.0,Poor,2023-08-08
+Paris,Rainy,27.0,5.0,75.0,1008.0,Moderate,2010-06-10
+New York,Stormy,-100.0,20.0,42.0,950.0,Moderate,2002-05-05
+New York,Rainy,-5.0,100.0,26.0,980.0,Good,2000-05-03
+Tokyo,Snowy,37.0,5.0,25.0,982.0,Good,2005-02-10
+Rome,Clear,35.0,5.0,58.0,1006.0,Moderate,2019-10-08
+Tokyo,Cloudy,,15.0,59.0,1019.0,Moderate,2024-05-29
+London,Rainy,27.0,15.0,93.0,1002.0,Good,2000-12-24
+Moscow,Clear,36.0,30.0,,998.0,Poor,2023-03-16
+Tokyo,Clear,27.0,5.0,66.0,1016.0,Good,2018-10-16
+Beijing,Stormy,,5.0,55.0,1002.0,Poor,2022-12-21
+Beijing,Clear,13.0,,94.0,982.0,Moderate,2010-09-14
+Tokyo,Cloudy,23.0,20.0,27.0,1004.0,Good,2014-04-14
+Paris,Stormy,,1.0,91.0,1006.0,Poor,2018-01-11
+Sydney,Stormy,100.0,,27.0,1010.0,Good,2010-11-29
+Berlin,Rainy,,20.0,23.0,1014.0,Poor,2013-02-24
+London,Clear,-6.0,15.0,91.0,999.0,Good,2018-08-17
+Moscow,Rainy,1.0,25.0,,1025.0,Moderate,2012-04-18
+Moscow,Cloudy,37.0,25.0,91.0,1011.0,Moderate,2010-04-29
+New York,Clear,-6.0,,94.0,987.0,Moderate,2012-02-22
+Sydney,Rainy,-100.0,25.0,,1013.0,Good,2007-03-25
+Beijing,Clear,36.0,100.0,93.0,987.0,Moderate,2010-05-21
+Beijing,Snowy,-9.0,20.0,88.0,982.0,Moderate,2016-04-20
+Moscow,Snowy,17.0,30.0,56.0,1006.0,Good,2019-03-20
+Sydney,Cloudy,-100.0,,63.0,1015.0,Good,2016-04-25
+New York,Clear,-6.0,1.0,74.0,1007.0,Moderate,2005-08-05
+Tokyo,Snowy,,,61.0,1022.0,Good,2002-08-04
+Rome,Cloudy,34.0,,5.0,996.0,Moderate,2022-01-25
+Beijing,Cloudy,20.0,1.0,37.0,985.0,Good,2002-07-07
+London,Snowy,9.0,25.0,37.0,1050.0,Good,2011-05-07
+Paris,Stormy,0.0,15.0,,997.0,Good,2004-03-02
+Berlin,Stormy,23.0,15.0,69.0,995.0,Moderate,2017-10-05
+Berlin,Rainy,,15.0,20.0,,Good,2005-02-10
+New York,Clear,-9.0,15.0,72.0,1015.0,Good,2002-04-06
+Rome,Clear,16.0,20.0,45.0,1019.0,Good,2010-08-01
+Sydney,Clear,10.0,1.0,93.0,,Good,2007-05-23
+Madrid,Cloudy,200.0,15.0,45.0,986.0,Poor,2021-09-17
+Madrid,Stormy,24.0,30.0,65.0,982.0,Good,2015-10-10
+Sydney,Snowy,23.0,25.0,58.0,,Good,2000-09-24
+Paris,Snowy,33.0,1.0,58.0,,Good,2021-12-07
+London,Cloudy,31.0,10.0,98.0,,Moderate,2001-01-01
+Berlin,Rainy,37.0,30.0,57.0,1022.0,Good,2015-06-25
+Berlin,Cloudy,30.0,25.0,82.0,996.0,Moderate,2011-11-07
+Berlin,Clear,19.0,5.0,82.0,,Poor,2015-04-24
+Berlin,Stormy,-10.0,10.0,5.0,1024.0,Good,2009-02-11
+Rome,Rainy,22.0,1.0,47.0,990.0,Poor,2002-03-21
+New York,Rainy,16.0,30.0,23.0,986.0,Moderate,2002-09-29
+Paris,Stormy,13.0,30.0,60.0,1020.0,Moderate,2008-07-04
+New York,Snowy,17.0,15.0,46.0,989.0,Moderate,2021-08-18
+London,Snowy,0.0,20.0,20.0,1011.0,Poor,2024-08-22
+Paris,Stormy,8.0,25.0,84.0,1000.0,Poor,2007-03-26
+Rome,Snowy,21.0,,66.0,983.0,Moderate,2009-02-03
+Moscow,Stormy,31.0,,51.0,1007.0,Moderate,2004-07-27
+Madrid,Clear,21.0,15.0,44.0,983.0,Good,2024-04-13
+Beijing,Cloudy,1.0,1.0,59.0,993.0,Moderate,2019-04-24
+Beijing,Rainy,12.0,20.0,82.0,,Good,2018-08-11
+Rome,Cloudy,40.0,5.0,46.0,1023.0,Good,2002-08-16
+Sydney,Cloudy,,1.0,87.0,,Good,2001-06-29
+London,Stormy,29.0,1.0,54.0,1011.0,Poor,2000-10-29
+Madrid,Cloudy,27.0,5.0,95.0,1011.0,Good,2024-01-12
+Madrid,Cloudy,-5.0,10.0,5.0,1003.0,Poor,2017-03-15
+Tokyo,Rainy,39.0,30.0,30.0,999.0,Poor,2021-08-16
+Beijing,Cloudy,,25.0,49.0,,Moderate,2021-08-03
+London,Snowy,4.0,,20.0,1003.0,Good,2006-01-26
+Berlin,Stormy,100.0,1.0,46.0,1019.0,Good,2019-11-24
+London,Cloudy,-8.0,20.0,26.0,1025.0,Good,2000-01-19
+Sydney,Snowy,37.0,10.0,65.0,983.0,Moderate,2024-08-16
+Rome,Clear,27.0,5.0,57.0,1007.0,Good,2003-12-27
+Paris,Clear,11.0,20.0,46.0,1004.0,Moderate,2022-12-20
+Paris,Stormy,38.0,15.0,43.0,1024.0,Poor,2013-05-21
+Beijing,Rainy,7.0,,99.0,1015.0,Moderate,2001-01-29
+Madrid,Rainy,2.0,100.0,61.0,998.0,Good,2000-07-02
+Beijing,Snowy,-8.0,20.0,42.0,1013.0,Moderate,2018-08-17
+Sydney,Rainy,,15.0,,986.0,Poor,2010-11-22
+New York,Snowy,37.0,15.0,91.0,1022.0,Moderate,2001-05-02
+Beijing,Rainy,9.0,30.0,21.0,1009.0,Moderate,2011-12-15
+Madrid,Rainy,8.0,25.0,36.0,,Moderate,2018-07-18
+New York,Snowy,4.0,25.0,63.0,1004.0,Poor,2023-03-07
+Paris,Clear,-10.0,15.0,100.0,,Moderate,2021-02-14
+Sydney,Stormy,-7.0,5.0,89.0,1012.0,Poor,2005-07-24
+Sydney,Clear,10.0,5.0,56.0,1014.0,Poor,2021-10-30
+New York,Clear,,25.0,,998.0,Good,2017-09-13
+Berlin,Rainy,0.0,10.0,,1003.0,Good,2009-01-09
+Berlin,Rainy,8.0,10.0,82.0,,Moderate,2008-01-27
+London,Rainy,29.0,1.0,26.0,,Poor,2000-03-26
+Beijing,Cloudy,,30.0,85.0,993.0,Poor,2002-08-19
+Paris,Snowy,-3.0,30.0,21.0,994.0,Poor,2000-06-21
+Tokyo,Clear,8.0,10.0,92.0,986.0,Poor,2013-12-18
+Berlin,Rainy,0.0,10.0,26.0,1050.0,Moderate,2002-11-05
+Paris,Snowy,-2.0,25.0,39.0,1015.0,Moderate,2005-10-18
+Rome,Snowy,3.0,15.0,21.0,1011.0,Moderate,2021-06-03
+Beijing,Snowy,,30.0,84.0,997.0,Moderate,2020-01-25
+Berlin,Stormy,2.0,10.0,37.0,1009.0,Poor,2003-10-31
+Moscow,Cloudy,34.0,,32.0,985.0,Good,2021-11-18
+London,Snowy,36.0,50.0,89.0,989.0,Moderate,2015-11-28
+Sydney,Cloudy,32.0,25.0,61.0,982.0,Good,2016-01-14
+Paris,Cloudy,-100.0,25.0,75.0,1020.0,Moderate,2019-06-27
+Tokyo,Rainy,,20.0,51.0,997.0,Good,2021-05-03
+New York,Rainy,3.0,100.0,75.0,1000.0,Moderate,2017-11-26
+Paris,Stormy,-6.0,,23.0,,Good,2019-08-31
+Madrid,Cloudy,14.0,10.0,49.0,1002.0,Good,2010-12-22
+Moscow,Rainy,,20.0,43.0,1015.0,Poor,2001-06-02
+Rome,Snowy,7.0,1.0,65.0,1020.0,Poor,2023-07-24
+Sydney,Clear,,20.0,27.0,1021.0,Good,2010-04-13
+Berlin,Clear,-6.0,20.0,22.0,1050.0,Moderate,2009-04-06
+New York,Stormy,24.0,5.0,53.0,1050.0,Good,2018-02-16
+Tokyo,Cloudy,10.0,15.0,66.0,1013.0,Moderate,2021-08-24
+London,Snowy,34.0,15.0,91.0,980.0,Moderate,2022-05-25
+Sydney,Clear,2.0,20.0,72.0,987.0,Good,2001-11-28
+Berlin,Rainy,-5.0,20.0,62.0,987.0,Poor,2002-10-08
+Beijing,Cloudy,17.0,100.0,97.0,1013.0,Good,2020-01-14
+New York,Snowy,39.0,15.0,52.0,989.0,Good,2006-10-21
+Moscow,Cloudy,26.0,5.0,64.0,,Poor,2005-03-20
+Rome,Snowy,-2.0,50.0,71.0,991.0,Poor,2004-04-09
+Madrid,Clear,25.0,5.0,75.0,989.0,Good,2014-04-10
+Tokyo,Cloudy,-3.0,1.0,96.0,1000.0,Moderate,2009-12-20
+New York,Clear,7.0,5.0,,1008.0,Good,2023-09-15
+Madrid,Snowy,100.0,1.0,71.0,1011.0,Poor,2005-06-03
+Moscow,Clear,,5.0,71.0,1017.0,Good,2015-07-19
+Sydney,Cloudy,38.0,30.0,67.0,999.0,Poor,2020-04-12
+New York,Stormy,25.0,20.0,65.0,1025.0,Poor,2021-06-24
+New York,Rainy,18.0,1.0,34.0,1002.0,Poor,2003-07-30
+Beijing,Clear,7.0,25.0,34.0,1022.0,Good,2002-04-04
+New York,Clear,0.0,30.0,79.0,994.0,Moderate,2008-10-21
+Paris,Stormy,11.0,25.0,80.0,985.0,Moderate,2009-03-21
+Sydney,Snowy,-4.0,5.0,49.0,988.0,Poor,2005-03-09
+Moscow,Cloudy,-100.0,5.0,48.0,1007.0,Moderate,2017-03-05
+Madrid,Cloudy,100.0,20.0,70.0,,Moderate,2020-12-04
+Beijing,Cloudy,0.0,15.0,81.0,1015.0,Poor,2013-02-24
+Berlin,Stormy,20.0,20.0,55.0,995.0,Good,2005-02-18
+Madrid,Stormy,33.0,,56.0,985.0,Moderate,2017-10-15
+Madrid,Clear,-5.0,5.0,90.0,1009.0,Good,2024-02-07
+Madrid,Rainy,6.0,15.0,75.0,950.0,Good,2006-01-21
+Beijing,Snowy,,25.0,94.0,1012.0,Good,2023-10-06
+Tokyo,Snowy,23.0,10.0,49.0,998.0,Moderate,2020-11-01
+Moscow,Snowy,-8.0,1.0,64.0,991.0,Good,2002-12-28
+Rome,Snowy,12.0,1.0,82.0,1021.0,Poor,2021-11-11
+New York,Clear,20.0,20.0,32.0,1021.0,Good,2012-08-25
+New York,Stormy,27.0,20.0,89.0,1006.0,Good,2019-05-17
+Sydney,Stormy,30.0,,5.0,1010.0,Poor,2024-02-28
+Paris,Cloudy,30.0,15.0,,1010.0,Poor,2022-03-13
+London,Stormy,11.0,15.0,46.0,985.0,Poor,2002-02-01
+Tokyo,Snowy,5.0,1.0,63.0,985.0,Moderate,2015-07-05
+Beijing,Cloudy,-1.0,25.0,96.0,980.0,Good,2008-02-17
+Rome,Stormy,5.0,25.0,89.0,1002.0,Moderate,2004-11-17
+Rome,Snowy,6.0,5.0,33.0,984.0,Good,2020-06-11
+Tokyo,Clear,30.0,,90.0,1009.0,Poor,2021-08-21
+Paris,Cloudy,38.0,25.0,49.0,987.0,Moderate,2022-06-18
+Berlin,Snowy,-2.0,10.0,85.0,1000.0,Poor,2005-12-13
+Moscow,Clear,26.0,1.0,,996.0,Poor,2017-09-11
+New York,Clear,-8.0,15.0,,1010.0,Moderate,2003-07-10
+Moscow,Stormy,-9.0,5.0,57.0,1018.0,Poor,2019-08-24
+Tokyo,Clear,-10.0,30.0,96.0,992.0,Good,2019-12-21
+Paris,Cloudy,12.0,10.0,50.0,,Moderate,2001-08-23
+Tokyo,Rainy,,15.0,81.0,1024.0,Poor,2015-05-30
+Rome,Clear,-10.0,30.0,47.0,1019.0,Good,2005-12-28
+Berlin,Cloudy,3.0,20.0,5.0,995.0,Good,2009-08-18
+Sydney,Snowy,3.0,50.0,45.0,1050.0,Good,2009-07-15
+Moscow,Snowy,-4.0,10.0,38.0,950.0,Moderate,2007-09-07
+London,Clear,,5.0,96.0,,Good,2000-01-10
+Moscow,Rainy,32.0,10.0,20.0,988.0,Good,2009-12-01
+Tokyo,Snowy,,20.0,36.0,991.0,Moderate,2005-05-01
+Tokyo,Rainy,26.0,10.0,39.0,994.0,Poor,2020-01-06
+Tokyo,Rainy,13.0,15.0,99.0,1002.0,Good,2004-02-26
+Sydney,Cloudy,37.0,5.0,62.0,986.0,Good,2017-07-13
+Berlin,Cloudy,23.0,1.0,66.0,1013.0,Poor,2013-02-22
+Paris,Clear,3.0,25.0,24.0,950.0,Moderate,2023-12-07
+Beijing,Cloudy,5.0,5.0,76.0,1025.0,Poor,2022-11-19
+Sydney,Clear,10.0,10.0,28.0,992.0,Poor,2000-05-31
+Rome,Snowy,-4.0,,26.0,,Poor,2003-09-11
+Berlin,Rainy,37.0,10.0,55.0,1050.0,Good,2018-06-29
+Sydney,Stormy,9.0,30.0,26.0,1020.0,Moderate,2011-06-29
+London,Clear,16.0,20.0,55.0,989.0,Poor,2006-04-24
+New York,Snowy,-6.0,25.0,58.0,1012.0,Poor,2014-12-17
+London,Stormy,-9.0,30.0,49.0,1015.0,Good,2022-04-04
+Madrid,Cloudy,19.0,5.0,5.0,985.0,Poor,2013-08-15
+Berlin,Cloudy,39.0,10.0,77.0,983.0,Poor,2007-03-09
+Beijing,Cloudy,12.0,5.0,71.0,996.0,Poor,2010-11-06
+Tokyo,Cloudy,1.0,,80.0,980.0,Moderate,2018-02-24
+New York,Stormy,1.0,10.0,88.0,985.0,Moderate,2024-09-04
+Moscow,Rainy,-4.0,20.0,36.0,981.0,Poor,2024-01-29
+Moscow,Rainy,,25.0,41.0,,Poor,2007-10-09
+Sydney,Cloudy,,50.0,50.0,996.0,Good,2002-05-07
+Rome,Cloudy,9.0,15.0,27.0,1019.0,Good,2015-08-15
+Rome,Cloudy,13.0,15.0,24.0,994.0,Poor,2020-03-20
+Moscow,Rainy,36.0,50.0,82.0,990.0,Good,2006-01-22
+Madrid,Cloudy,7.0,5.0,85.0,996.0,Good,2024-09-12
+Berlin,Stormy,3.0,,28.0,1013.0,Poor,2002-10-23
+Beijing,Clear,-100.0,30.0,,1011.0,Poor,2019-06-28
+Paris,Rainy,28.0,10.0,22.0,998.0,Poor,2016-01-26
+Tokyo,Rainy,-3.0,25.0,60.0,984.0,Poor,2022-10-14
+Madrid,Stormy,-3.0,15.0,27.0,1009.0,Moderate,2008-09-21
+New York,Cloudy,,5.0,,981.0,Good,2001-12-23
+Berlin,Snowy,-5.0,25.0,110.0,999.0,Moderate,2005-10-03
+Tokyo,Cloudy,26.0,10.0,,994.0,Moderate,2003-02-01
+Berlin,Snowy,5.0,5.0,93.0,950.0,Good,2006-04-07
+Madrid,Rainy,,,80.0,997.0,Good,2023-07-14
+Sydney,Clear,18.0,1.0,25.0,1015.0,Poor,2003-07-14
+Madrid,Rainy,,30.0,94.0,,Good,2009-06-30
+Berlin,Stormy,27.0,,,996.0,Moderate,2019-04-26
+Moscow,Snowy,24.0,1.0,82.0,982.0,Poor,2024-11-28
+Paris,Clear,4.0,25.0,75.0,992.0,Poor,2013-05-07
+Moscow,Clear,-5.0,30.0,72.0,,Moderate,2004-01-30
+Moscow,Snowy,200.0,10.0,67.0,950.0,Moderate,2022-08-28
+New York,Rainy,1.0,1.0,48.0,1018.0,Good,2019-01-14
+Beijing,Snowy,33.0,10.0,21.0,1020.0,Poor,2011-05-28
+New York,Cloudy,16.0,10.0,23.0,980.0,Poor,2007-11-09
+Madrid,Rainy,-5.0,5.0,33.0,1015.0,Moderate,2010-08-25
+Beijing,Snowy,-8.0,,68.0,1021.0,Good,2015-09-26
+New York,Stormy,19.0,5.0,82.0,1006.0,Moderate,2010-01-13
+Tokyo,Clear,,10.0,82.0,996.0,Moderate,2017-08-25
+Madrid,Cloudy,0.0,5.0,,1016.0,Good,2020-05-07
+London,Clear,7.0,20.0,85.0,1015.0,Moderate,2018-08-10
+New York,Rainy,37.0,,62.0,983.0,Poor,2022-08-23
+London,Stormy,4.0,1.0,77.0,1024.0,Moderate,2013-01-04
+London,Clear,14.0,,35.0,1017.0,Good,2024-07-15
+Sydney,Snowy,24.0,30.0,52.0,988.0,Moderate,2003-02-24
+Berlin,Rainy,-4.0,10.0,110.0,990.0,Poor,2021-07-15
+Rome,Rainy,37.0,,72.0,1015.0,Poor,2020-12-25
+Sydney,Snowy,-4.0,15.0,77.0,950.0,Poor,2013-08-17
+Moscow,Clear,13.0,15.0,90.0,1024.0,Moderate,2013-12-19
+Berlin,Rainy,11.0,25.0,42.0,1006.0,Moderate,2008-10-27
+Sydney,Snowy,-1.0,10.0,,992.0,Good,2009-03-10
+Beijing,Cloudy,18.0,1.0,43.0,1005.0,Moderate,2022-12-02
+Paris,Clear,37.0,10.0,42.0,980.0,Poor,2008-05-08
+New York,Clear,35.0,25.0,63.0,984.0,Good,2011-03-31
+Beijing,Stormy,-7.0,10.0,48.0,1003.0,Good,2016-10-13
+Paris,Snowy,-9.0,1.0,91.0,1019.0,Moderate,2020-09-28
+Rome,Snowy,-1.0,1.0,5.0,1022.0,Good,2015-01-05
+Tokyo,Snowy,,10.0,50.0,999.0,Good,2023-10-10
+Paris,Snowy,10.0,15.0,26.0,1000.0,Good,2019-03-03
+Rome,Clear,35.0,,,1018.0,Moderate,2021-01-30
+Paris,Stormy,37.0,30.0,88.0,1004.0,Moderate,2014-06-06
+Beijing,Snowy,34.0,15.0,20.0,1023.0,Good,2008-04-06
+Madrid,Rainy,-9.0,1.0,80.0,1019.0,Good,2011-01-10
+Madrid,Rainy,28.0,100.0,31.0,985.0,Poor,2001-10-22
+Tokyo,Cloudy,9.0,50.0,52.0,989.0,Poor,2012-06-28
+London,Clear,40.0,100.0,38.0,1013.0,Poor,2018-12-19
+New York,Snowy,28.0,5.0,66.0,1006.0,Moderate,2016-03-10
+Moscow,Snowy,37.0,10.0,5.0,993.0,Poor,2008-06-21
+Paris,Stormy,12.0,1.0,,997.0,Poor,2015-03-28
+Paris,Snowy,18.0,20.0,,1012.0,Poor,2024-08-27
+Berlin,Clear,2.0,,73.0,997.0,Moderate,2017-12-11
+New York,Stormy,7.0,,77.0,986.0,Good,2006-04-02
+Tokyo,Clear,-2.0,5.0,33.0,999.0,Poor,2020-02-19
+Berlin,Snowy,4.0,25.0,36.0,1009.0,Good,2019-04-20
+Moscow,Rainy,-8.0,1.0,96.0,1007.0,Poor,2001-09-20
+Sydney,Cloudy,9.0,30.0,39.0,987.0,Good,2014-02-15
+Madrid,Clear,-8.0,25.0,66.0,1020.0,Good,2018-10-06
+Paris,Clear,18.0,30.0,5.0,982.0,Poor,2000-10-10
+Sydney,Stormy,-2.0,5.0,75.0,,Good,2003-07-05
+Beijing,Cloudy,32.0,15.0,79.0,,Poor,2000-09-03
+London,Clear,34.0,15.0,93.0,989.0,Moderate,2006-08-22
+Rome,Cloudy,32.0,1.0,26.0,989.0,Good,2003-12-20
+Paris,Cloudy,,25.0,25.0,,Good,2011-06-08
+Paris,Clear,-2.0,20.0,,1021.0,Poor,2020-03-05
+Paris,Snowy,18.0,25.0,97.0,1022.0,Good,2014-10-23
+London,Rainy,0.0,15.0,55.0,994.0,Moderate,2007-04-09
+Moscow,Rainy,3.0,20.0,57.0,991.0,Good,2005-12-13
+London,Rainy,4.0,30.0,35.0,1001.0,Poor,2004-07-12
+Sydney,Stormy,-4.0,10.0,93.0,984.0,Moderate,2006-02-13
+Beijing,Snowy,27.0,1.0,99.0,1005.0,Poor,2022-01-28
+New York,Stormy,,1.0,90.0,1050.0,Moderate,2024-04-28
+Madrid,Snowy,34.0,25.0,89.0,1000.0,Moderate,2005-09-19
+Tokyo,Snowy,-5.0,5.0,74.0,1021.0,Good,2014-10-13
+New York,Snowy,-1.0,30.0,31.0,1021.0,Moderate,2017-03-10
+Paris,Stormy,3.0,20.0,44.0,994.0,Good,2000-11-18
+Tokyo,Clear,26.0,,5.0,1020.0,Good,2014-01-27
+Sydney,Rainy,-100.0,15.0,37.0,1009.0,Good,2007-05-05
+Moscow,Stormy,17.0,5.0,58.0,991.0,Poor,2000-10-23
+Berlin,Snowy,-8.0,30.0,75.0,1021.0,Good,2004-07-20
+Madrid,Rainy,-7.0,1.0,62.0,993.0,Poor,2004-06-26
+Beijing,Stormy,20.0,100.0,80.0,1020.0,Moderate,2006-03-17
+Rome,Clear,9.0,10.0,43.0,994.0,Poor,2007-04-29
+Beijing,Stormy,35.0,15.0,88.0,,Good,2002-11-21
+London,Stormy,34.0,30.0,94.0,950.0,Poor,2018-10-20
+Madrid,Snowy,2.0,20.0,83.0,985.0,Moderate,2009-03-15
+London,Rainy,27.0,1.0,27.0,1009.0,Good,2022-08-22
+New York,Stormy,26.0,5.0,,1015.0,Good,2022-07-11
+Madrid,Stormy,16.0,25.0,53.0,1017.0,Poor,2011-10-30
+Rome,Rainy,-9.0,20.0,66.0,999.0,Poor,2001-12-13
+Berlin,Clear,0.0,15.0,75.0,1003.0,Moderate,2020-01-20
+Berlin,Snowy,,,51.0,998.0,Moderate,2004-05-24
+Madrid,Stormy,-4.0,20.0,77.0,984.0,Moderate,2007-05-09
+Madrid,Stormy,-4.0,15.0,91.0,,Good,2008-03-25
+Tokyo,Stormy,24.0,5.0,52.0,1022.0,Good,2010-04-24
+Paris,Clear,34.0,,62.0,1021.0,Moderate,2023-04-02
+Madrid,Cloudy,-8.0,20.0,71.0,950.0,Poor,2019-10-30
+Sydney,Clear,-6.0,5.0,45.0,950.0,Moderate,2022-06-10
+Tokyo,Cloudy,10.0,30.0,58.0,1004.0,Moderate,2004-05-20
+Sydney,Snowy,9.0,5.0,87.0,,Poor,2021-12-20
